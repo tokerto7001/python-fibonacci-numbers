@@ -1,0 +1,9 @@
+x = 0
+y = 1
+fibonacci_number = []
+while y < 56:
+    z = x + y
+    fibonacci_number.append(y)
+    x = y
+    y = z
+print(fibonacci_number)
